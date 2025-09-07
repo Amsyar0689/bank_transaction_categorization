@@ -145,8 +145,7 @@ jupyter notebook bank_transaction_categorization_model.ipynb
 ## 👨‍💻 Author
 
 **Amsyar Md Hanif**  
-*University of Wisconsin–Madison*  
-📧 mdhanif@wisc.edu
+📧 amsyar1653@gmail.com
 
 ---
 
