@@ -127,3 +127,27 @@ jupyter notebook bank_transaction_categorization_model.ipynb
 2. Or view the report directly:
 - model.ipynb
 - report.html
+
+---
+
+## 📝 Notes
+
+- Transaction categories are **label-encoded** (`0` to `32`)
+- All user profile flags (`TRUE`/`FALSE`) were treated as **binary categorical features**
+- TF-IDF vectorization was applied to the `description` field using:
+  - `ngram_range=(1, 2)`
+  - `min_df=0.01`
+- The entire pipeline is modular:
+  - Classifier and preprocessing components can be easily substituted or extended
+
+---
+
+## 👨‍💻 Author
+
+**Amsyar Md Hanif**  
+*University of Wisconsin–Madison*  
+📧 mdhanif@wisc.edu
+
+---
+
+If you have **feedback**, **suggestions**, or **improvements**, feel free to reach out via email. Stay tuned for my website!
